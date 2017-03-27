@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <outfile>/home/pablo/sketchbook/INGKA_INT/application.windows32/INGKA_INT.exe</outfile>
+  <icon>/home/pablo/processing-3.0/modes/java/application/sketch.ico</icon>
+  <classPath>
+    <mainClass>INGKA_INT</mainClass>
+    <cp>lib/INGKA_INT.jar</cp>
+    <cp>lib/core.jar</cp>
+    <cp>lib/jogl-all.jar</cp>
+    <cp>lib/gluegen-rt.jar</cp>
+    <cp>lib/jogl-all-natives-windows-i586.jar</cp>
+    <cp>lib/gluegen-rt-natives-windows-i586.jar</cp>
+    <cp>lib/G4P.jar</cp>
+    <cp>lib/jssc.jar</cp>
+    <cp>lib/serial.jar</cp>
+  </classPath>
+  <jre>
+    <minVersion>1.7.0_40</minVersion>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>
